@@ -2,9 +2,7 @@ const express = require('express');
 const {Pool} = require('pg');
 const bodyParser = require('body-parser');
 
-const {Members, Game} = require('../SQL Tables/Tables')
-const {membersData} = require('../sampleData/members')
-const {games} = require('../sampleData/member-game')
+
 
 
 const pool = new Pool({
